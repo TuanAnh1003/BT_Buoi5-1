@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .Bai1{
+        width: 100%;
+        height: 50vh;
+        background-color: aqua;
+        position: relative;
+    }
+    .Bai2{
+        width: 100%;
+        height: 50vh;
+        background-color: whitesmoke;
+        position: relative;
+    }
+    .circle1{
+        width: 100px;
+        height: 100px;
+        background: yellow;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 80px;
+        left: 80px;
+        transition: 2s linear;
+    }
+    .circle1:hover{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+    }
+    .circle2{
+        width: 300px;
+        height: 300px;
+        background-color: green;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 0;
+        left: 80px;
+        transition: 10s linear;
+    }
+    .circle2:hover{
+        left: 1500px;
+    }
+</style>
+<body>
+    <div class="Bai1">
+        Bài 1
+        <div class="circle1"></div>
+    </div>
+    <div class="Bai2">
+        Bài 2
+        <div class="circle2"></div>
+    </div>
+</body>
+</html>
